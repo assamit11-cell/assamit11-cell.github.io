@@ -1,0 +1,25 @@
+# robots.txt - SEO инструкции для поисковых ботов
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /tmp/
+
+# Ограничение скорости для быстрых ботов
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 1
+
+# Google и другие основные поисковики
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+# Sitemap указатель
+Sitemap:https://assamit11-cell.github.io//sitemap.xml
